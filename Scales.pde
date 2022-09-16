@@ -13,7 +13,7 @@ void draw() {
 } // ends draw
 void facey (int x, int y,float sz){
 strokeWeight(3);
- fill((int)(Math.random()*200)+50,(int)(Math.random()*150)+50,(int)(Math.random()*100)+100);
+ fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
 
   beginShape();
   curveVertex(x,y); // x = 150, y = 50 for ref
